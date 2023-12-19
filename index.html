@@ -159,7 +159,7 @@
           <form>
             <!-- first name -->
             <div class="input_wrap">
-              <label for="f_name" class="firstNameLabel">First Name</label>
+              <label for="f_name" id="firstNameLabel">First Name</label>
               <input
                 type="text"
                 id="f_name"
@@ -174,7 +174,7 @@
 
             <!-- last name -->
             <div class="input_wrap">
-              <label for="l_name" class="lastNameLabel">First Name</label>
+              <label for="l_name" id="lastNameLabel">First Name</label>
               <input
                 type="text"
                 id="l_name"
@@ -189,7 +189,7 @@
 
             <!-- gender -->
             <div class="input_wrap">
-              <label for="gender" class="genderLabel"> Gender </label>
+              <label for="gender" id="genderLabel"> Gender </label>
               <select
                 name="Gender"
                 id="gender"
@@ -207,7 +207,7 @@
 
             <!-- Date of birth -->
             <div class="input_wrap _dob">
-              <label for="date of birth" class="dobLabel">
+              <label for="dob" id="dobLabel">
                 Date of Birth
               </label>
               <input
@@ -225,7 +225,7 @@
 
             <!-- Weight -->
             <div class="input_wrap">
-              <label for="weight" class="weightLabel">Weight (KG)</label>
+              <label for="weight" id="weightLabel">Weight (KG)</label>
               <input
                 type="text"
                 autocomplete="off"
@@ -241,7 +241,7 @@
 
             <!-- Height -->
             <div class="input_wrap">
-              <label for="height" class="heightLabel">Height (CM)</label>
+              <label for="height" id="heightLabel">Height (CM)</label>
               <input
                 type="text"
                 autocomplete="off"
@@ -257,7 +257,7 @@
 
             <!-- activity level -->
             <div class="input_wrap">
-              <label for="activity" class="activityLabel">
+              <label for="activity" id="activityLabel">
                 Activity level
               </label>
               <select
@@ -278,7 +278,7 @@
 
             <!-- password -->
             <div class="input_wrap p_word">
-              <label for="password" class="passwordLabel">Password</label>
+              <label for="password" id="passwordLabel">Password</label>
               <div></div>
               <input
                 type="password"
@@ -291,7 +291,7 @@
                 aria-labelledby="passwordLabel"
               />
 
-              <span class="eye">
+              <span class="eye" id="show_p">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -326,5 +326,8 @@
         </div>
       </section>
     </main>
+
+
+    <script src="app.js" defer></script>
   </body>
 </html>
